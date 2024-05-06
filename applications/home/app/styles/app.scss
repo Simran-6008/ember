@@ -49,3 +49,18 @@ $spacers: (
 	width: 100vw;
 }
 @import "ember-power-select";
+
+
+.main-container{
+	width: 80%;
+	display: block;
+	margin: auto;
+	display: flex;
+}
+
+@media (max-width:500px){
+	.main-container{
+		display: flex;
+		flex-direction: column;
+	}
+}
